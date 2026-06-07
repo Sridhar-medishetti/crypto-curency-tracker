@@ -1,0 +1,61 @@
+/* Write your CSS code here */
+.crypto-tracker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.main-heading {
+  color: #00e7ff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.bg-image {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 32px;
+}
+
+.tracker-table {
+  border: 2px solid #00e7ff;
+  border-radius: 8px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00e7ff;
+  padding: 16px 24px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.column-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.currency-type-headers {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.text-right {
+  text-align: right;
+  width: 80px;
+}
+
+.crypto-list {
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: #092e33;
+}
